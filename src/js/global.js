@@ -3,7 +3,6 @@ function runAnswer () {
     // generates random number between 1 and 12
     let ran = Math.floor((Math.random() * 12) + 1);
     let ans;
-    console.log(ran)
     // sets value of ans based on ran number using a switch
     switch (ran) {
         case 1:
@@ -43,8 +42,9 @@ function runAnswer () {
             ans = 'Outlook not so good'
             break;
     }
-    console.log(ans)
+    // sets value of the ans h1 div to ans variable
     document.getElementById('ans').innerHTML = ans;
 }
 
+// adds event listener to #askMe button which calls runAnswer function
 document.querySelector('#askMe').addEventListener('click', runAnswer)
