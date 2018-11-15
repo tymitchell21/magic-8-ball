@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+}
+header {
+    text-align: center;
+    margin: 50px 0px;
+}
+#wrap {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: black;
+}
+button {
+    position: relative;
+    top: 150px;
+    left: 130px;
+    background-color: black;
+    width: 0; 
+    height: 120px; 
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 120px solid #5e0087;
+}
+button h3 {
+    width: 100px;
+    text-align: center;
+    position: relative;
+    left: -50px;
+    top: 55px;
+    color: white;
+}
